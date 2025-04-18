@@ -1,0 +1,246 @@
+.navbar-custom {
+  background-color: #2c2341;
+  padding: 20px 30px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1b1b1b;
+}
+
+.cart-btn {
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cart-icon {
+  font-size: 1.2rem;
+}
+
+.navigations {
+  background-color: lightcyan;
+  padding: 15px;
+}
+
+.list-items {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+}
+
+.list-items li {
+  color: rgba(200, 197, 226, 0.758);
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.list-items li:hover {
+  color: green;
+}
+
+@media (max-width: 768px) {
+  .list-items li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .navbar-custom {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+  .cart-btn {
+    margin-top: 10px;
+  }
+}
+
+/* Header Section */
+.header {
+  background-color: #f6f7f8; /* Light background */
+  padding: 50px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 50px;
+}
+
+/* Left Side Text */
+.header-text {
+  max-width: 50%;
+}
+
+.header-welcome-heading p {
+  color: #6c757d;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header-heading h1 {
+  font-size: 2.8rem;
+  color: #161616;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Button */
+.header-text button {
+  margin-top: 20px;
+  background-color: #078b07;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.header-text button:hover {
+  background-color: #34c66a;
+}
+
+/* Right Side Image */
+.header-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-text {
+    max-width: 100%;
+  }
+
+  .header-heading h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 40px 5%;
+  }
+
+  .header-heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .header-text button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+.sponsors {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  align-items: center; /* Centers images vertically */
+  min-height: 30vh;
+}
+
+.sponsors-logo {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  gap: 60px;
+  padding: 0;
+}
+
+.sponsors-logo img {
+  max-width: 150px; /* Set max width */
+  width: 100%; /* Make images responsive */
+  height: auto;
+  transition: transform 0.3s ease; /* Smooth effect */
+}
+
+/* Add hover effect */
+.sponsors-logo img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sponsors-logo {
+    gap: 30px; /* Reduce gap on smaller screens */
+  }
+
+  .sponsors-logo img {
+    max-width: 100px; /* Reduce image size */
+  }
+}
+
+@media (max-width: 480px) {
+  .sponsors {
+    padding: 10px;
+  }
+
+  .sponsors-logo {
+    flex-direction: column; /* Stack logos vertically */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .sponsors-logo img {
+    max-width: 80px;
+  }
+}
+
+
+
+.button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+.form-head{
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
